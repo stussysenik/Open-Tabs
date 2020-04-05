@@ -1,0 +1,28 @@
+{
+    "name": "Open Tabs",
+    "description" : "A simple extension that opens up websites",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "main.html",
+      "default_icon": "hello_extensions.png"
+    },
+    "commands": {
+      "_execute_browser_action": {
+        "suggested_key": {
+          "default": "Ctrl+O",
+          "mac": "MacCtrl+O"
+        },
+        "description": "Opens Tabs"
+      }
+    },
+    "icons": {
+      "16": "hello_extensions.png",
+      "32": "hello_extensions.png",
+      "48": "hello_extensions.png",
+      "128": "hello_extensions.png"
+    },
+    "permissions": [
+      "tabs"
+    ]
+  }
