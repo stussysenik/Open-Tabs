@@ -1,17 +1,25 @@
-<div align="center">
+# Open-Tabs
 
-# Open Tabs
+Open Tabs
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-green?style=flat-square)
 
-</div>
+## About
+
+📦 **Project** built with Node.js / React.
+
+<!-- 
+  Add a demo GIF here:
+  ![Demo](demo.gif)
+-->
+
+## Run
+
+```bash
+npm install
+npm run dev
+```
 
 ---
 
-## Quick Start
-
-```bash
-git clone https://github.com/stussysenik/Open-Tabs.git
-cd Open-Tabs
-```
+*Built by [@stussysenik](https://github.com/stussysenik)*
